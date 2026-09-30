@@ -87,7 +87,7 @@ function Home() {
             font-body text-xs uppercase tracking-[0.3em] text-rose-gold/80
             mb-6 opacity-0 animate-fade-in-up
           ">
-            BRAC University Art &amp; Photography Society
+            Brac University Art and Photography Society (BUAPS)
           </p>
 
           {/* Main heading in serif display font */}
@@ -104,7 +104,7 @@ function Home() {
             font-body text-lg md:text-xl text-white/60 max-w-2xl mx-auto
             mb-10 opacity-0 animate-fade-in-up delay-300
           ">
-            A creative sanctuary at BRAC University — capturing moments,
+            A creative sanctuary at Brac University — capturing moments,
             crafting stories, and building a community of visual artists.
           </p>
 
@@ -185,7 +185,7 @@ function Home() {
               <span className="italic text-rose-gold"> Creative Vision</span>
             </h2>
             <p className="font-body text-white/60 leading-relaxed mb-4">
-              Founded in 2020, the BRAC University Art &amp; Photography Society (BUAPS)
+              Founded in 2020, the Brac University Art and Photography Society (BUAPS)
               is a student-run creative collective dedicated to celebrating visual
               storytelling in all its forms.
             </p>
@@ -306,7 +306,7 @@ function Home() {
           </h2>
           <p className="font-body text-white/50 mb-10 leading-relaxed">
             Club members can upload art and photography, build a personal profile,
-            track their activity, and connect with fellow creatives at BRAC.
+            track their activity, and connect with fellow creatives at Brac.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -16,7 +16,7 @@ const TIMELINE = [
     year: '2020',
     title: 'Club Founded',
     description:
-      'BUAPS was established by a group of 12 passionate students at BRAC University, beginning with a single photography walk around Dhaka.',
+      'BUAPS was established by a group of 12 passionate students at Brac University, beginning with a single photography walk around Dhaka.',
     tag: 'Origin',
   },
   {
@@ -49,9 +49,9 @@ const TIMELINE = [
   },
   {
     year: '2025',
-    title: 'Best Student Club — BRAC University',
+    title: 'Best Student Club — Brac University',
     description:
-      'Awarded "Best Student Club of the Year" by the BRAC University student governance body, recognising outstanding events and community impact.',
+      'Awarded "Best Student Club of the Year" by the Brac University student governance body, recognising outstanding events and community impact.',
     tag: 'Award',
   },
   {
@@ -74,7 +74,7 @@ const AWARDS = [
     icon: '🥇',
     title: 'Best Student Club of the Year',
     year: '2025',
-    body: 'Awarded by BRAC University Student Governance for excellence in creative programming.',
+    body: 'Awarded by Brac University Student Governance for excellence in creative programming.',
   },
   {
     icon: '📰',
@@ -115,7 +115,7 @@ function Achievements() {
         </h1>
         <p className="font-body text-white/50 mt-4 max-w-lg leading-relaxed">
           Six years of creativity, community, and recognition — here's how BUAPS
-          grew from a small idea into BRAC University's most celebrated arts club.
+          grew from a small idea into Brac University's most celebrated arts club.
         </p>
       </div>
 

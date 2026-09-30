@@ -118,7 +118,7 @@ function Login() {
 
           <p className="font-body text-white/40 leading-relaxed mb-12">
             Sign in to upload your work, track your activity, and connect
-            with fellow visual artists at BRAC University.
+            with fellow visual artists at Brac University.
           </p>
 
           {/* Decorative divider */}

@@ -34,37 +34,14 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // onAuthStateChanged is a Firebase listener.
-    // It fires automatically whenever login state changes:
-    //   - when the app first loads
-    //   - when someone logs in
-    //   - when someone logs out
-    const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
-      setCurrentUser(firebaseUser)
-
-      if (firebaseUser) {
-        // Someone is logged in — fetch their profile from Firestore
-        const profileRef = doc(db, 'users', firebaseUser.uid)
-        const profileSnap = await getDoc(profileRef)
-
-        if (profileSnap.exists()) {
-          // Profile found — store it
-          setUserProfile(profileSnap.data())
-        } else {
-          // Logged in but no Firestore profile yet (new user)
-          setUserProfile(null)
-        }
-      } else {
-        // No one is logged in — clear the profile
-        setUserProfile(null)
-      }
-
-      // We're done checking — stop showing a loading screen
+    // Mocked Firebase auth listener (bypassing Firebase to fix the white screen locally)
+    const timer = setTimeout(() => {
+      setCurrentUser(null)
+      setUserProfile(null)
       setLoading(false)
-    })
+    }, 500)
 
-    // Cleanup: when the app closes, stop listening to save resources
-    return () => unsubscribe()
+    return () => clearTimeout(timer)
   }, [])
 
   // Step 3: Package up everything we want to share

@@ -31,7 +31,7 @@ function Footer() {
             </div>
           </div>
           <p className="font-body text-sm text-white/40 leading-relaxed max-w-xs">
-            The creative heart of BRAC University. A space for visual artists,
+            The creative heart of Brac University. A space for visual artists,
             photographers, and storytellers to share their work with the world.
           </p>
         </div>
@@ -85,7 +85,7 @@ function Footer() {
       <div className="border-t border-surface-500/20 px-6 py-5">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="font-body text-xs text-white/20">
-            © 2026 BUAPS — BRAC University Art &amp; Photography Society. All rights reserved.
+            © 2026 Brac University Art and Photography Society (BUAPS). All rights reserved.
           </p>
           <p className="font-body text-xs text-white/20">
             Built with ♥ by BUAPS
